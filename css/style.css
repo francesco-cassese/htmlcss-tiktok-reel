@@ -131,7 +131,7 @@ footer {
 .a-chat::after {
 	content: "19";
 	position: absolute;
-	background-color: darkred;
+	background-color: red;
 	padding: 1px 3px;
 	border-radius: 20px;
 	font-weight: bold;
