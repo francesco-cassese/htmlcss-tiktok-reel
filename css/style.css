@@ -131,6 +131,7 @@ footer {
 	flex-direction: column;
 	justify-content: flex-start;
 	gap: 30px;
+
 }
 
 .container-btn-sidebar {
@@ -138,11 +139,11 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-
 }
 
 .container-btn-sidebar span {
 	color: #fff;
+	font-size: 13px;
 }
 
 .sidebar button {
