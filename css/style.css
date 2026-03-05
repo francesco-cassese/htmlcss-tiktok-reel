@@ -45,13 +45,8 @@ video {
 }
 
 
-.central-tabs-bar {
-	position: relative;
+.central-tabs-bar button {
 	transition: all 0.3s ease;
-}
-
-.btn-follow {
-	position: relative;
 }
 
 .btn-follow::before {
@@ -124,10 +119,6 @@ footer {
 	justify-content: flex-end;
 }
 
-.a-chat {
-	position: relative;
-}
-
 .a-chat::after {
 	content: "19";
 	position: absolute;
@@ -177,7 +168,6 @@ footer {
 	padding: 5px;
 	border-radius: 15px;
 	cursor: pointer;
-	position: relative;
 	box-shadow: -4px 0 0 #00f2ea, 4px 0 0 #ff0050;
 }
 
