@@ -40,6 +40,11 @@ video {
 	margin: 10px;
 }
 
+.reel-header button:hover {
+	filter: brightness(0.8);
+}
+
+
 .central-tabs-bar {
 	position: relative;
 	transform: all 0.3s ease;
@@ -57,19 +62,19 @@ video {
 .btn-exp:hover::after {
 	bottom: 0;
 	left: 11px;
-	width: 20%;
+	width: 32px;
 }
 
 .btn-follow:hover::after {
 	bottom: 0;
-	left: 43%;
-	width: 20%;
+	left: 11px;
+	width: 32px;
 }
 
 .btn-for-you:hover::after {
 	bottom: 0;
-	right: 10px;
-	width: 14%;
+	right: 11px;
+	width: 23px;
 }
 
 
@@ -82,10 +87,6 @@ video {
 	transition: all 0.3s ease;
 	padding: 5px;
 	border-radius: 20px;
-}
-
-.reel-header button:hover::after {
-	filter: brightness(0.8);
 }
 
 .btn-play,
