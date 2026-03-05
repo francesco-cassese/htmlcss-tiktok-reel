@@ -70,10 +70,26 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: black;
+}
+
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+}
+
+
 
 /* Sidebar */
 .sidebar {
