@@ -29,6 +29,12 @@ video {
 	position: relative;
 }
 
+/*
+	===============================
+	Header
+	===============================
+*/
+
 .reel-header {
 	position: absolute;
 	align-items: center;
@@ -104,8 +110,6 @@ video {
 	font-size: 18px;
 }
 
-
-
 /* Footer */
 
 footer {
@@ -175,6 +179,12 @@ footer {
 .navbar button:hover {
 	filter: brightness(0.8);
 }
+
+/*
+	================================
+	Descrizione post
+	================================
+*/
 
 .post-description {
 
