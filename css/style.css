@@ -83,9 +83,18 @@ footer {
 	gap: 15px;
 }
 
+.sidebar button {
+	background: none;
+	border: none;
+	color: white;
+}
+
 .img-boolean {
 	display: block;
 	width: 33px;
+	aspect-ratio: 1;
+	object-fit: cover;
+	border-radius: 50%;
 }
 
 /* ---------------------
