@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -31,9 +32,8 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+	display: flex;
+	margin: 10px;
 }
 
 /* Footer */
