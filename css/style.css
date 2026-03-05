@@ -42,6 +42,7 @@ video {
 
 .central-tabs-bar {
 	position: relative;
+	transform: all 0.3s ease;
 }
 
 .btn-exp:hover::after,
@@ -67,8 +68,8 @@ video {
 
 .btn-for-you:hover::after {
 	bottom: 0;
-	right: 14px;
-	width: 12%;
+	right: 10px;
+	width: 14%;
 }
 
 
