@@ -97,7 +97,7 @@ video {
 /* Footer */
 
 footer {
-	position: relative;
+	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -154,7 +154,34 @@ footer {
 }
 
 .post-description {
-	display: inline;
+
+	max-width: 350px;
+	position: absolute;
+	z-index: 1;
+	bottom: 70px;
+	left: -5px;
+	color: #fff;
+	padding: 20px;
+}
+
+.post-description p {
+	line-height: 0.9;
+	margin-top: 5px;
+}
+
+.post-description a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+
+}
+
+.post-description button {
+	background: none;
+	border: none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
 }
 
 /* Sidebar */
