@@ -103,6 +103,10 @@ footer {
 	font-size: 20px;
 }
 
+.btn-share {
+	transform: scaleX(-1);
+}
+
 .sidebar button:hover {
 	filter: brightness(0.8);
 }
