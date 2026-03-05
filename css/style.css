@@ -9,6 +9,10 @@ body {
 	font-family: 'TikTok Sans', sans-serif;
 }
 
+.p-rel {
+	position: relative;
+}
+
 video {
 	height: 100%;
 	width: 100%;
@@ -117,6 +121,20 @@ footer {
 	aspect-ratio: 1;
 	object-fit: cover;
 	border-radius: 50%;
+}
+
+.add {
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	left: 14px;
+	translate: 0 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* ---------------------
