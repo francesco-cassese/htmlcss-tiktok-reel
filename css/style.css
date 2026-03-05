@@ -41,13 +41,28 @@ video {
 }
 
 .reel-header button:hover {
-	filter: brightness(0.8);
+	color: #fff;
 }
 
 
 .central-tabs-bar {
 	position: relative;
 	transform: all 0.3s ease;
+}
+
+.btn-follow {
+	position: relative;
+}
+
+.btn-follow::before {
+	content: "";
+	position: absolute;
+	background-color: red;
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	top: 0;
+	right: 0;
 }
 
 .btn-exp:hover::after,
@@ -81,7 +96,7 @@ video {
 .reel-header button {
 	background: none;
 	border: none;
-	color: white;
+	color: lightgray;
 	cursor: pointer;
 	font-weight: bold;
 	transition: all 0.3s ease;
@@ -116,7 +131,7 @@ footer {
 .a-chat::after {
 	content: "19";
 	position: absolute;
-	background-color: red;
+	background-color: darkred;
 	padding: 1px 3px;
 	border-radius: 20px;
 	font-weight: bold;
