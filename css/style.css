@@ -36,6 +36,28 @@ video {
 	margin: 10px;
 }
 
+.reel-header button {
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.reel-header button:hover {
+	filter: brightness(0.8);
+}
+
+.btn-play,
+.btn-search {
+	font-size: 18px;
+}
+
+
+
 /* Footer */
 
 footer {
