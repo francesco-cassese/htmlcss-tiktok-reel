@@ -109,6 +109,22 @@ footer {
 	justify-content: flex-end;
 }
 
+.a-chat {
+	position: relative;
+}
+
+.a-chat::after {
+	content: "19";
+	position: absolute;
+	background-color: red;
+	padding: 1px 3px;
+	border-radius: 20px;
+	font-weight: bold;
+	top: 0;
+	right: 18px;
+	color: #fff;
+}
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
