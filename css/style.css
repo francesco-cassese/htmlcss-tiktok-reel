@@ -83,13 +83,21 @@ footer {
 }
 
 .navbar a {
-	color: #fff;
+	color: lightgray;
 	text-decoration: none;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
+	cursor: pointer;
 }
 
+.navbar a:hover {
+	color: #fff;
+}
 
+.navbar .bi {
+	font-size: 25px;
+}
 
 /* Sidebar */
 .sidebar {
