@@ -77,9 +77,15 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 15px;
+}
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+.img-boolean {
+	display: block;
+	width: 33px;
 }
 
 /* ---------------------
