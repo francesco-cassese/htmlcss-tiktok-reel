@@ -40,6 +40,38 @@ video {
 	margin: 10px;
 }
 
+.central-tabs-bar {
+	position: relative;
+}
+
+.btn-exp:hover::after,
+.btn-follow:hover::after,
+.btn-for-you:hover::after {
+	position: absolute;
+	content: "";
+	border: 2px solid #fff;
+	border-radius: 20px;
+}
+
+.btn-exp:hover::after {
+	bottom: 0;
+	left: 11px;
+	width: 20%;
+}
+
+.btn-follow:hover::after {
+	bottom: 0;
+	left: 43%;
+	width: 20%;
+}
+
+.btn-for-you:hover::after {
+	bottom: 0;
+	right: 14px;
+	width: 12%;
+}
+
+
 .reel-header button {
 	background: none;
 	border: none;
@@ -51,7 +83,7 @@ video {
 	border-radius: 20px;
 }
 
-.reel-header button:hover {
+.reel-header button:hover::after {
 	filter: brightness(0.8);
 }
 
