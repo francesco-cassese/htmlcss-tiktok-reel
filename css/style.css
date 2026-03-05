@@ -113,8 +113,9 @@ footer {
 	border-radius: 15px;
 	cursor: pointer;
 	position: relative;
-	z-index: 1;
+	box-shadow: -4px 0 0 #00f2ea, 4px 0 0 #ff0050;
 }
+
 
 .navbar button:hover {
 	filter: brightness(0.8);
