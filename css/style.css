@@ -138,7 +138,7 @@ footer {
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	padding: 5px;
+	padding: 10px 5px;
 	background-color: black;
 }
 
